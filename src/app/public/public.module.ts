@@ -6,6 +6,7 @@ import { PublicComponent } from './public/public.component';
 import { HomeComponent } from './home/containers/home.component';
 import { LoginComponent } from './login/containers/login.component';
 
+
 @NgModule ({
 
   imports: [
