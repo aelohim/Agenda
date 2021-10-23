@@ -6,27 +6,27 @@ import { MatNativeDateModule } from '@angular/material/core';
 
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { DatePickerComponent } from './components/datepicker/datepicker.component';
-
-
 @NgModule ({
 
   imports: [
     HttpClientModule,
     RouterModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+
   ],
   declarations: [
     NotFoundComponent,
-    DatePickerComponent,
+    DatePickerComponent
   ],
   exports: [
     HttpClientModule,
     RouterModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+
     NotFoundComponent,
     DatePickerComponent,
-    MatDatepickerModule,
-    MatNativeDateModule
   ],
   providers:[]
 
