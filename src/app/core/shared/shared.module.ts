@@ -3,6 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { FullCalendarModule } from 'primeng/fullcalendar'
 
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { DatePickerComponent } from './components/datepicker/datepicker.component';
@@ -13,6 +14,7 @@ import { DatePickerComponent } from './components/datepicker/datepicker.componen
     RouterModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    FullCalendarModule
 
   ],
   declarations: [
@@ -24,6 +26,7 @@ import { DatePickerComponent } from './components/datepicker/datepicker.componen
     RouterModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    FullCalendarModule,
 
     NotFoundComponent,
     DatePickerComponent,
